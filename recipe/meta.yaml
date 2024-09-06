@@ -1,5 +1,5 @@
 {% set name = "datasette-search-all" %}
-{% set version = "1.1.3" %}
+{% set version = "1.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e2a5eb5ac3e191364f69dc775fc233bbc754eec95d774462ec5ac2ba61eea86d
+  sha256: 371de80eff4f2f0e5ba70cc8efcdd68c1089ebf03d743febced250012d678911
 
 build:
   noarch: python
